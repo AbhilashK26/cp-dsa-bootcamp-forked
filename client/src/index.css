@@ -53,3 +53,10 @@ a {
 *::-webkit-scrollbar-corner {
     display: none;
 }
+
+.h-text {
+    color: transparent;
+    background: linear-gradient(#fff 40%, hsla(0, 0%, 100%, 0.3));
+    background-clip: text;
+    -moz-background-clip: text;
+}

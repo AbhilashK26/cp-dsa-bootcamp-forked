@@ -186,7 +186,7 @@ const Leaderboard = () => {
         <div className="lb-page">
             {!loading && !error ? <div className="notification">{isCached}</div> : null}
             <div className="heading">
-                Know where you <span className="gradient-text">Stand</span>
+            <span className="h-text">Know where you</span> <span className="gradient-text">Stand</span>
             </div>
             <div className="content">
                 Discover the top coders, track your progress, and compete for the top spot on our dynamic competitive

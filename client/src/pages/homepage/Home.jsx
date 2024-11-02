@@ -6,7 +6,7 @@ import codeiiest_gdsc from "../../assets/Codeiiest-GDSCiiest.png";
 import { Button, Box } from "@mui/material";
 import { Meeting, Sendicon } from "../../../public/assets/svgvectors";
 import { Link } from "react-router-dom";
-import ContestWinners from "./ContestWinners"
+import ContestWinners from "./ContestWinners";
 
 const Home = () => {
     return (
@@ -24,9 +24,9 @@ function Introduction() {
         <div className="intro">
             <div className="info">
                 <div className="heading">
-                    This summer,
+                    <span className="h-text">This summer,</span>
                     <br />
-                    boost your coding skills
+                    <span className="h-text">boost your coding skills</span>
                     <br />
                     <span className="gradient-text">like never before</span>
                 </div>
@@ -43,7 +43,7 @@ function Introduction() {
                                 textDecoration: "none",
                                 fontSize: "1rem",
                                 animation: "wiggle 1s linear infinite",
-                                animationDuration: "5s"
+                                animationDuration: "5s",
                                 // px: "1rem"
                             }}
                             endIcon={<Sendicon color="#fff" cls={"button-icon"} />}
@@ -81,7 +81,7 @@ function MeetTheTeam() {
     return (
         <div className="team">
             <div className="heading">
-                Meet our awesome
+                <span className="h-text">Meet our awesome</span>
                 <br />
                 <span className="gradient-text">Mentors</span>
             </div>
@@ -114,7 +114,7 @@ function MeetTheTeam() {
                 <NameCard
                     name={"Hanzala Sharique"}
                     cf_rating={"Specialist"}
-                    cc_rating={4}
+                    cc_rating={5}
                     byline={"Time Limit Exceeded: A hint you're one step closer to breakthrough."}
                     profilepic={"/assets/profilepic/Hanzala_Shariq.jpeg"}
                     cf_handle={"BurnerAce"}
@@ -140,7 +140,7 @@ function About() {
     return (
         <div className="about">
             <div className="heading">
-                About the <span className="gradient-text">Program</span>
+                <span className="h-text">About the</span> <span className="gradient-text">Program</span>
             </div>
             <div className="content">
                 Join us for an exciting Summer Bootcamp on Data Structures & Algorithms (DSA) and Competitive

@@ -266,7 +266,7 @@ const Contest = () => {
     return (
         <div className="contest-page">
             <div className="heading">
-                Contest <span className="gradient-text">Standings</span>
+            <span className="h-text">Contest</span> <span className="gradient-text">Standings</span>
             </div>
             <div className="content">
                 Enter the CodeForces contest ID and see where you rank among your peers in that contest! Challenge

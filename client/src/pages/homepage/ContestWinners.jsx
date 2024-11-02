@@ -43,38 +43,38 @@ export default function ContestWinners() {
                 <span className="main gradient-text">Hall Of Fame</span>
                 <h2>
                     Contest Winners of{" "}
-                    <a href={`https://codeforces.com/contest/${2027}`} aria-label="contest link">
-                        <span className="w-gradient-text">Codeforces Round 982 Div 2</span>
+                    <a href={`https://codeforces.com/contest/${2032}`} aria-label="contest link">
+                        <span className="w-gradient-text">Codeforces Round 983 Div 2</span>
                     </a>
                 </h2>
             </div>
             <div className="lbox">
                 <WinCard
-                    name={"Abhijit Karmakar"}
-                    handle={"abhijit07cf"}
+                    name={"Abhinav Verma"}
+                    handle={"legendav007"}
                     position={"position2"}
-                    rank={"pupil"}
-                    grank={5099}
+                    rank={"newbie"}
+                    grank={6896}
                     crank={"2nd"}
-                    score={1342}
+                    score={1084}
                 />
                 <WinCard
-                    name={"Satyam Yadav"}
-                    handle={"Satyamyadav77512"}
+                    name={"Yasharth Shukla"}
+                    handle={"Martand"}
                     position={"position1"}
-                    rank={"pupil"}
-                    grank={4803}
+                    rank={"newbie"}
+                    grank={6819}
                     crank={"1st"}
-                    score={1368}
+                    score={1090}
                 />
                 <WinCard
-                    name={"Prithiraj Biswas"}
-                    handle={"Prithiraj069"}
+                    name={"Shreesammat Joshi"}
+                    handle={"Shreesammat"}
                     position={"position3"}
                     rank={"newbie"}
-                    grank={6162}
+                    grank={7720}
                     crank={"3rd"}
-                    score={1244}
+                    score={1025}
                 />
             </div>
             <Link to={"/contest"}>
